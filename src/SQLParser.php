@@ -10,6 +10,7 @@ class SQLParser{
 	# the main public interface is very simple
 	#
 
+    public $sql;
 	public $tokens = array();
 	public $tables = array();
 	public $source_map = array();
